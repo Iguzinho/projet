@@ -1,0 +1,21 @@
+package br.ueg.igor.HelloWorld.model;
+
+
+import lombok.*;
+
+import java.time.LocalDate;
+
+@Getter
+@Setter
+@ToString
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+
+public class Student {
+    private long id;
+    private String name;
+    private String registerNumber;
+    private String course;
+    private LocalDate registerDate;
+}
