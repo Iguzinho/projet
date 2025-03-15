@@ -31,6 +31,6 @@ public class StudentController {
                 .course("SI")
                 .build();
         List<Student> students = Arrays.asList(student, student2);
-        return students;
+        return student;
     }
 }

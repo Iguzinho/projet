@@ -17,5 +17,5 @@ public class Student {
     private String name;
     private String registerNumber;
     private String course;
-    private LocalDate registerDate;
+    private LocalDate registerDate
 }
